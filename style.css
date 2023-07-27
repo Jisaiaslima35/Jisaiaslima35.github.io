@@ -55,6 +55,7 @@ header ul li a:hover {
     
 }
 .projetos{
+    width: 100%;
     margin: 30px;
     text-align: center;
     /*border: 1px solid blue;*/
