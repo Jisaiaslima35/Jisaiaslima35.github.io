@@ -106,10 +106,7 @@ header ul li a:hover {
     border-radius: 5px;
 }
 
-.projeto-item img {
-    width: 100%;
-    height: auto;
-}
+
 .projeto-item:hover{
     background: darkseagreen;
 }
