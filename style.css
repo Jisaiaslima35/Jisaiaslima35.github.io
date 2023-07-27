@@ -52,6 +52,7 @@ header ul li a:hover {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    
 }
 .projetos{
     margin: 30px;
@@ -64,6 +65,7 @@ header ul li a:hover {
     
 }
 
+
 .sub-titulo h1 {
     font-size: 28px;
     font-weight: bold;
@@ -73,6 +75,7 @@ header ul li a:hover {
     display: block;
     margin-top: 10px;
     font-size: 16px;
+    margin: 10px;
 }
 
 .sub-titulo span::before {
@@ -91,10 +94,12 @@ header ul li a:hover {
     flex-wrap: wrap;
     justify-content: center;
     margin: 30px;
+    
 }
 
 .projeto-item {
-    width: 300px;
+    width: 250px;
+    height: 300px;
     margin: 10px;
     padding: 20px;
     border: 1px solid #ddd;
@@ -105,3 +110,23 @@ header ul li a:hover {
     width: 100%;
     height: auto;
 }
+.projeto-item:hover{
+    background: darkseagreen;
+}
+.habi{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+/* Estilo para a foto redonda */
+.foto-perfil {
+    width: 150px; /* Defina o tamanho desejado para a largura da imagem */
+    height: 150px; /* Defina o tamanho desejado para a altura da imagem */
+    border-radius: 50%; /* Torna a imagem redonda */
+    object-fit: cover; /* Impede que a imagem se redimensione, cortando se necessário */
+    border: 2px solid royalblue; /* Adicione uma borda para estilização (opcional) */
+    margin: 10px;
+  }
+  
