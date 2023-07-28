@@ -10,22 +10,36 @@ header {
     padding: 10px;
     text-align: center;
     margin-bottom: 2px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
 }
 
 header nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    
 }
 
 header ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    justify-content: center;
+    align-items: center;
+    
+    
 }
 
 header ul li {
     display: inline-block;
     margin-right: 20px;
+    
+    
+    
+    
 }
 
 header ul li a {
@@ -40,7 +54,10 @@ header ul li a:hover {
 }
 
 .main {
-    background-color: #333;
+    background: #00416A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E4E5E6, #00416A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E4E5E6, #00416A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     color: white;
     
     margin: 30px;
@@ -65,6 +82,12 @@ header ul li a:hover {
     
     
 }
+.sub-titulo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
 
 
 .sub-titulo h1 {
@@ -88,6 +111,13 @@ header ul li a:hover {
     content: "💻🚀";
     margin-left: 5px;
 }
+.saudacao{
+    width: 70%;
+    font-weight: bold;
+}
+.titulo-nome{
+    text-align: right;
+}
 
 /* Estilizar a seção dos projetos */
 .projetos {
@@ -103,12 +133,13 @@ header ul li a:hover {
     height: 300px;
     margin: 10px;
     padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    
+    
 }
 .projeto-item img{
     width: 200px;
     height: 200px;
+    border-radius: 10px;
 }
 
 
@@ -130,5 +161,14 @@ header ul li a:hover {
     object-fit: cover; /* Impede que a imagem se redimensione, cortando se necessário */
     border: 2px solid royalblue; /* Adicione uma borda para estilização (opcional) */
     margin: 10px;
+  }
+  .logo{
+    width: 80px; /* Defina o tamanho desejado para a largura da imagem */
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid royalblue;
+
+
   }
   
