@@ -114,6 +114,7 @@ background: linear-gradient(to right, #E4E5E6, #00416A); /* W3C, IE 10+/ Edge, F
 .saudacao{
     width: 70%;
     font-weight: bold;
+    text-align: left;
 }
 .titulo-nome{
     text-align: right;
